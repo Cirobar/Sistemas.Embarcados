@@ -4,7 +4,7 @@
 
 2. O que são daemons?
 
-> São programas que executam em segundo plano sem controle de um usuário interativo. Breve, são programas executados para garantir o funcionamento do sistema operacional.
+> São programas que executam em segundo plano sem controle de um usuário interativo. São programas executados para garantir o funcionamento do sistema operacional.
 
 3. O que é o shell?
 

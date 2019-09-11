@@ -2,7 +2,7 @@
 São sistemas que combinam hardware e software para executar uma função específica juntamente de atuadores e sensores, podendo estes serem mecânicos e/ou elétricos. De maneira geral, os sistemas embarcados podem fazer parte um produto ou sistema maior.
 
 2. O que são sistemas microprocesssados?
-São sistemas que apresentam uma arquitetura de hardware com microprocessador. Essa nomenclatura (microprocessador) é dada para o dispositivo que desempenha a função é de desempenhar o ciclo *"fetch-decode-execute"* requerendo dispositivos externos de interface (memória, barramento e afins).
+São sistemas que apresentam uma arquitetura de hardware com microprocessador. Essa nomenclatura (microprocessador) é dada para o dispositivo que desempenha a função é de realizar o ciclo *"fetch-decode-execute"* requerendo dispositivos externos de interface (memória, barramento e afins).
 
 3. Apresente aplicações de sistemas embarcados:
 	(a) Para a indústria automotiva;
