@@ -18,7 +18,7 @@ pid = fork();
 pipe(fd);
 ```
 
-> Serão criados dois pipes compartilhados entre processos pai e filho.
+> Não é criado o pipe compartilhado entre processos.
 
 2. Apresente mais cinco sinais importantes do ambiente Unix, além do `SIGSEGV`, `SIGUSR1`, `SIGUSR2`, `SIGALRM` e `SIGINT`. Quais são suas características e utilidades?
 
