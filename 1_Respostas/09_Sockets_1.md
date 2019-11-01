@@ -23,7 +23,7 @@
 
 (a) O que são protocolos de comunicação?
 
-> São conjuntos de regras que normatizam o funcionamento de um processo de comunicação. Esses protocolos geram uniformidade entre todos os participantes do protocolo de comunicação.
+> São conjuntos de regras que estabelecem as normas para o funcionamento de um processo de comunicação. Esses protocolos geram uniformidade entre todos os participantes do protocolo de comunicação.
 
 (b) Quais são as características básicas de protocolos de comunicação?
 

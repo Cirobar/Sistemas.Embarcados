@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
 
 	while(1)
 	{
-		
+		usleep(10000) //10ms
 		if(read(uart0_fd, &val, 1) == 1)
 		{
 			sum += (long int) val;
@@ -116,18 +116,19 @@ int main(int argc, char const *argv[])
 	while(1)
 	{
 		usleep(DLY);
-		do
+		do  
 		{
 			wiringPiSPIDataRW(0, &send, 1);
 
 		}while(send != 0xAA);
-		usleep(DLY);
+		usleep(100);
 		send = 0x01;
 		wiringPiSPIDataRW(0, &send, 1);
 		sum += (long int) send;
 		send = 0x02;
 		wiringPiSPIDataRW(0, &send, 1);
 		sum += ((long int) send) << 8;
+		counter++;
 
 		if (counter == N)
 		{
